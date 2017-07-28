@@ -1,6 +1,6 @@
 # lux
 
-````shell
+````
 lux(1)
 Set brightness of all connected displays on macOS
 
@@ -14,7 +14,7 @@ Examples:
 ````
 
 ## Installation
-````shell
+````
 make install
 ````
 
