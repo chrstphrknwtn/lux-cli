@@ -2,7 +2,7 @@
 
 ````
 lux(1)
-Set brightness of all connected displays on macOS
+Set brightness of all connected Apple displays on macOS
 
 Usage:
   lux <level>   Brightness level from 0 to 10

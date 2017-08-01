@@ -1,7 +1,7 @@
 import Foundation
 
 let usage: String = "\n  lux(1)\n" +
-"  Set brightness of all connected displays on macOS\n\n" +
+"  Set brightness of all connected Apple displays on macOS\n\n" +
 "  Usage:\n" +
 "    lux <level>   Brightness level from 0 to 10\n\n" +
 "  Examples:\n" +
