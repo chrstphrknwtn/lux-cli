@@ -9,7 +9,7 @@ let usage: String = "\n  lux(1)\n" +
 "    lux 5         50% brightness\n" +
 "    lux 10        Maximum brightness\n"
 
-private extension String  {
+private extension String {
   var isNaN: Bool { return Int(self) == nil || Double(self) == nil }
 }
 
@@ -27,7 +27,7 @@ private func setBrightness(level: Float) {
   }
 }
 
-if (CommandLine.arguments.count < 2 || CommandLine.arguments[1].isNaN) {
+if CommandLine.arguments.count < 2 || CommandLine.arguments[1].isNaN {
   print(usage)
   exit(EXIT_FAILURE)
 }
